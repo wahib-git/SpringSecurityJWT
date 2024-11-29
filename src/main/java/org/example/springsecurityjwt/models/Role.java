@@ -2,6 +2,8 @@ package org.example.springsecurityjwt.models;
 
 import jakarta.persistence.*;
 
+import java.net.ProtocolFamily;
+
 @Entity
 @Table(name = "roles")
 public class Role {
@@ -15,5 +17,10 @@ public class Role {
     private ERole name;
 
     public Role() {
+    }
+
+    public ProtocolFamily getName() {
+
+        return null;
     }
 }
